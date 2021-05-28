@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generals */
+.bg-azure{
+    background-color: rgba(223, 241, 243, 0.76);
+}
+
+body {
+    max-width: 1180px;
+    margin: 20px auto 10px;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float-left {
+    float: left;
+}
+
+/* Header */
+
+header {
+    background-color: rgb(218, 109, 218);
+    height: 130px;
+    margin-bottom: 30px;
+}
+
+.container {
+    margin: 30px 0 10px;
+}
+
+.section {
+    background-color: rgb(216, 216, 108);
+    height: 470px;
+    margin-bottom: 30px;
+}
+
+.wallpaper-cont {
+    background-color: rgb(45, 134, 223);
+    height: 600px;
+    margin-bottom: 10px;
+}
+
+.row{
+    background-color: rgba(223, 241, 243, 0.76);
+    height: 80px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.sidebar {
+    background-color: rgba(223, 241, 243, 0.76);
+    height: 475px;
+    width: 20%;
+}
+
+.main-content {
+    background-color: rgba(223, 241, 243, 0.76);
+    height: 475px;
+    width: calc(60% - 40px);
+    margin: 0 20px;
+}
+
+/* Si può usare anche il padding al posto di 
+width: calc(60% - 40px) perchè è solo layout.
+Se ho del contenuto all'interno allora è meglio
+width perchè se no viene "schiacciato" il contenuto. */
+ 
+
+footer {
+    background-color: rgb(149, 2, 207);
+    height: 55px;
+}
