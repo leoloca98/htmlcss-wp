@@ -173,3 +173,8 @@ footer {
     height: 55px;
     text-align: center;
 }
+
+footer span {
+    color: red;
+    font-size: 25px;
+}
