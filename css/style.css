@@ -6,14 +6,11 @@
 
 /* Generals */
 
-.bg-azure {
-    background-color: rgba(223, 241, 243, 0.76);
-}
-
 body {
     max-width: 1024px;
     margin: 20px auto 10px;
     font-family: Arial, Helvetica, sans-serif;
+    color: rgba(71, 71, 71, 0.505);
     font-size: 13px;
 }
 
@@ -103,6 +100,7 @@ header {
 .row h1 {
     font-size: 28px;
     font-weight: 800;
+    color: black;
 }
 
 .row span {
@@ -119,18 +117,24 @@ header {
     width: 20%;
 }
 
-.column-left .img-left {
+.cont-bg {
+    height: 180px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.bg-left {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgb(0, 0, 0, 0.2)), url("../img/img-1.jpg");
-    background-size: 200px;
+    background-repeat: no-repeat;
     background-position: center;
+    background-size: 100% auto;
     height: 180px;
     width: 100%;
     border-radius: 10px;
 }
 
-.column-left .Details {
-    height: 70%;
-    width: 100%;
+.Details h4 {
+    color: black;
 }
 
 .main-content {
@@ -139,12 +143,33 @@ header {
     margin: 0 20px;
 }
 
+.bg-main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgb(0, 0, 0, 0.2)), url("../img/banner-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+    height: 180px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.bg-right {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgb(0, 0, 0, 0.2)), url("../img/img-3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+    height: 180px;
+    width: 100%;
+    border-radius: 10px;
+}
+
 /* Si può usare anche il padding al posto di 
 width: calc(60% - 40px) perchè è solo layout.
 Se ho del contenuto all'interno allora è meglio
 width perchè se no viene "schiacciato" il contenuto. */
 
 footer {
-    background-color: rgb(149, 2, 207);
+    color: black;
     height: 55px;
+    text-align: center;
 }
