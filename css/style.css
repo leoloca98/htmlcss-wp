@@ -34,6 +34,13 @@ header {
 #logo>img {
     height: 50px;
     width: auto;
+    padding-right: 30px;
+}
+
+.social{
+    color: black;
+    font-size: 30px;
+    padding-left: 15px;
 }
 
 .links {
