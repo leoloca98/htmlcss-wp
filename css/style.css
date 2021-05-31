@@ -134,7 +134,7 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgb(0, 0, 0, 0.2)), url("../img/img-1.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100% auto;
+    background-size: cover;
     height: 180px;
     width: 100%;
     border-radius: 10px;
@@ -164,7 +164,7 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgb(0, 0, 0, 0.2)), url("../img/img-3.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100% auto;
+    background-size: cover;
     height: 180px;
     width: 100%;
     border-radius: 10px;
